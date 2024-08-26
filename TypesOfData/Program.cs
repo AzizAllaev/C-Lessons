@@ -27,11 +27,11 @@
 			{
 				if (result > 4 ) 
 				{
-					Console.WriteLine($"Вася живет на {result} этажей выше");
+					Console.WriteLine($"Вася живет на {result} этажей ниже");
 				}
 				else
 				{
-					Console.WriteLine($"Вася живет на {result} этажа выше");
+					Console.WriteLine($"Вася живет на {result} этажа ниже");
 				}
 			}
 
