@@ -8,9 +8,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriableAndConstans", "VeriableAndConstans\VeriableAndConstans.csproj", "{3AA32710-CAD7-4222-8D2E-95AC30AEB762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeriableAndConstans", "VeriableAndConstans\VeriableAndConstans.csproj", "{3AA32710-CAD7-4222-8D2E-95AC30AEB762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesOfData", "TypesOfData\TypesOfData.csproj", "{4AA2FEBD-ADD2-4EE1-8540-2D5702159948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesOfData", "TypesOfData\TypesOfData.csproj", "{4AA2FEBD-ADD2-4EE1-8540-2D5702159948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOutput", "ConsoleOutput\ConsoleOutput.csproj", "{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +28,16 @@ Global
 		{4AA2FEBD-ADD2-4EE1-8540-2D5702159948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AA2FEBD-ADD2-4EE1-8540-2D5702159948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AA2FEBD-ADD2-4EE1-8540-2D5702159948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84} = {A986DB38-1938-4453-9DC1-709F36B3DF1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B81F128-66E4-41F9-9099-6FF252A2936C}
