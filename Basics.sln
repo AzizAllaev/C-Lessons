@@ -12,7 +12,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeriableAndConstans", "Veri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesOfData", "TypesOfData\TypesOfData.csproj", "{4AA2FEBD-ADD2-4EE1-8540-2D5702159948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOutput", "ConsoleOutput\ConsoleOutput.csproj", "{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOutput", "ConsoleOutput\ConsoleOutput.csproj", "{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticsCs", "ConsoleApp2\ArithmeticsCs.csproj", "{A8E4FF33-221F-4767-A149-17FD870D2049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5EBCF51-D52F-4CA1-A3B0-1B4327174F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E4FF33-221F-4767-A149-17FD870D2049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E4FF33-221F-4767-A149-17FD870D2049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E4FF33-221F-4767-A149-17FD870D2049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E4FF33-221F-4767-A149-17FD870D2049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
