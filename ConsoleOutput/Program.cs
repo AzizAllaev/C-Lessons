@@ -4,41 +4,43 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Привет Вася!");
-			Console.Write("Сколько лет Васе: ");
+			Console.Write("Напишите своё имя: ");
+			string name = Console.ReadLine();
+			Console.Write($"Сколько лет {name}: ");
+			string age = Console.ReadLine();
+			Console.Write($"Какой рост у {name}: ");
+			string rost = Console.ReadLine();
 
 
-					//Помимо привычного метода WriteLine также есть Write
-			
-			string VasyaAge = Console.ReadLine();  
-			Console.WriteLine($"Васе {VasyaAge} лет");
 
-					//Отличается он тем что при выполнении он не переходит на новую строку
-
-			int VasyaAgeInt = int.Parse(VasyaAge);
+			Console.WriteLine($"{name}");
+			Console.WriteLine($"Возраст: {age}");
+			Console.WriteLine($"Рост: {rost}");
 
 
-					//Также тут я хотел закрепить метод Convert.ToInt32
 
-			Console.WriteLine("Сколько лет Пете?");
-			int Petyagrade = Convert.ToInt32(Console.ReadLine());
+			Console.ReadKey();
+
+
+			//Console.WriteLine("Сколько лет Пете?");
+			//int Petyagrade = Convert.ToInt32(Console.ReadLine());
 		
 
-			int age = Petyagrade - VasyaAgeInt;
+			//int age = Petyagrade - VasyaAgeInt;
 
 
-			if (age > 0)
-			{
-				Console.WriteLine($"Петя старше на {age} лет");
-			}
-			else
-			{
-				int Secondage = age * -1;
-				Console.WriteLine($"Вася старше на {Secondage} лет");
-			}
+			//if (age > 0)
+			//{
+			//	Console.WriteLine($"Петя старше на {age} лет");
+			//}
+			//else
+			//{
+			//	int Secondage = age * -1;
+			//	Console.WriteLine($"Вася старше на {Secondage} лет");
+			//}
 		
 
-			//Метод Convert.ToInt32 хорошая альтернатива int.Parse()
+					//Метод Convert.ToInt32 хорошая альтернатива int.Parse()
 
 
 			
