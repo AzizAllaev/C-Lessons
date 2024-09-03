@@ -5,46 +5,61 @@
 		static void Main(string[] args)
 		{
 			//Унарная операция
+			Console.Write("Напишите первое число: ");
+			int a = Convert.ToInt32(Console.ReadLine());
 
-			int a = 5;
-			int b = +a;
+			int result = a + 1;
+
+			
+			Console.WriteLine(result);
 
 
-			Console.WriteLine($"Результат унарной операции сложения: {b}");
+		
 
 
 
 			//Бинарная 
 
-			int c = 5;
-			int d = 4;
 
-			int result = c + d;
+			Console.Write("Напишите первое число: ");
+			int ab = Convert.ToInt32(Console.ReadLine());
 
+			Console.Write("Напишите второе число: ");
+			int ac = Convert.ToInt32(Console.ReadLine());	
 
-
-			Console.WriteLine($"Результат бинарной операции сложения: {result}");
-
-
+			int secondResult = ab + ac;
 
 
+			Console.WriteLine($"{ab} + {ac} = {secondResult}");
+
+
+
+
+		
 			//Тернарная
 
 
 
-			int ac = 5;
-			int bc = 4;
-			int cb = 5;
+			Console.Write("Напишите первое число: ");
+			int abc = Convert.ToInt32(Console.ReadLine());
 
-			int SecondResult = ac + bc / cb;
+			Console.Write("Напишите второе число: ");
+			int abf = Convert.ToInt32(Console.ReadLine());
 
-			Console.WriteLine($"Результат тернарной арифметической операции: {SecondResult}");
+			Console.Write("Напишите третье число: ");
+			int acb = Convert.ToInt32(Console.ReadLine());
 
 
+			int thirdResult = acb + abc + abf;
 
+			Console.WriteLine($"{acb} + {abc} + {abf} = {thirdResult}");
 
 			Console.ReadKey();
 
+
+
+
+			
 		}
 	}
 }
