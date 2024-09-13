@@ -117,5 +117,9 @@
 
 
 		}
+		static double Sum(double firstOperand, double secondOperand) 
+		{
+
+		}
 	}
 }
