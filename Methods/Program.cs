@@ -119,7 +119,7 @@
 		}
 		static double Sum(double firstOperand, double secondOperand) 
 		{
-
+			return firstOperand + secondOperand; 
 		}
 	}
 }
