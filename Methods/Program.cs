@@ -119,6 +119,7 @@
 		}
 		static double Sum(double firstOperand, double secondOperand) 
 		{
+			double op1: op2;
 			return firstOperand + secondOperand; 
 		}
 	}
