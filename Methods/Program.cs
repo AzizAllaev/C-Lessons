@@ -1,5 +1,9 @@
 ﻿namespace Methods
 {
+	/// <summary>
+	/// 
+	/// </summary>
+
 	internal class Program
 	{
 		static void Main(string[] args)

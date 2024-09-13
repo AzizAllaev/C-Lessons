@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cycles", "Cycles\Cycles.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{2EBD9CE1-8BC1-4758-B8B0-19F89F663526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{603D5504-0FBB-439F-B42D-029252723410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Methods\Calculator.csproj", "{603D5504-0FBB-439F-B42D-029252723410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
