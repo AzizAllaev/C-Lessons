@@ -10,118 +10,63 @@
 		{
 			while (true)
 			{
-				Console.WriteLine("Если вы хотите сложить напишиете: +");
-				Console.WriteLine("Если вы хотите отнять напишите: -");
-				Console.WriteLine("Если вы хотите умножить напишите: *");
-				Console.WriteLine("Если вы хотите разделить напишите: /");
-				Console.Write("Какое действие вас интересует: ");
-				string check = Console.ReadLine();
+				Console.Write("Введите первое число: ");
+				string firstString = Console.ReadLine();
 
-				if (check == "+")
+				Console.Write("Введите второе число: ");
+				string secondString = Console.ReadLine();
+
+				double firstOperand = Convert.ToDouble(firstString);
+				double secondOperand = Convert.ToDouble(secondString);
+
+				Console.WriteLine("Чтобы сложить напишите 1");
+				Console.WriteLine("Чтобы вычесть напишите 2");
+				Console.WriteLine("Чтобы вычесть напишите 3");
+				string Sign = Console.ReadLine();
+
+				double result = 0.0;
+
+				if (Sign == "1")
 				{
-					Console.Write("Напишите первое число: ");
-					string convpl1 = Console.ReadLine();
-					int firstPl = Convert.ToInt32(convpl1);
-
-					Console.Write("Напишите второе число: ");
-					string convpl2 = Console.ReadLine();
-					int secondPl = Convert.ToInt32(convpl2);
-
-					int resultPl = Plus(secondPl, firstPl);
-
-					Console.WriteLine($"Результат: {firstPl} + {secondPl} = {resultPl}");
+					result = Sum(firstOperand, secondOperand);
 				}
-				else if (check == "-")
+				else if (Sign == "2")
 				{
-					Console.Write("Напишите первое число: ");
-					string convmin1 = Console.ReadLine();
-					int firstMin = Convert.ToInt32(convmin1);
-
-					Console.Write("Напишите второе число:");
-					string convmin2 = Console.ReadLine();
-					int secondMin = Convert.ToInt32(convmin2);
-
-					int resultMin = Minus(firstMin, secondMin);
-
-					Console.WriteLine($"Результат: {firstMin} - {secondMin} = {resultMin}");
+					result = Subtract(firstOperand, secondOperand);
 				}
-				else if (check == "*")
+				else if (Sign == "3")
 				{
-					Console.Write("Напишите первое число: ");
-					string convmul = Console.ReadLine();
-					int firstMul = Convert.ToInt32(convmul);
-
-					Console.Write("Напишите второе число: ");
-					string convmul2 = Console.ReadLine();
-					int secondMul = Convert.ToInt32(convmul2);
-
-					int resultMul = Multiply(firstMul, secondMul);
-
-					Console.WriteLine($"Результат: {firstMul} * {secondMul} = {resultMul}");
+					result = Multiply(firstOperand, secondOperand);
 				}
-				else if (check == "/")
+				else
 				{
-					Console.Write("Напишите первое число: ");
-					string convsp1 = Console.ReadLine();
-					int firstSp = Convert.ToInt32(convsp1);
-
-					Console.Write("Напишите второе число: ");
-					string convsp2 = Console.ReadLine();
-					int secondSp = Convert.ToInt32(convsp2);
-
-
-					int resultSp = Split(firstSp, secondSp);
-
-					Console.WriteLine($"Результат: {firstSp} / {secondSp} = {resultSp}");
-				}
-				else 
-				{
-					Console.WriteLine("Следуйте инструкции сверху, если хотите закончить работу программы напишите Stop");
-					string stop = Console.ReadLine();
-					if (stop == "Stop")
-					{
-						break;
-					}
+					Console.WriteLine("Следуйте инструкции");
 				}
 
-
-
-
-
-
-
-				//Методы
-
-				static int Plus(int a, int b)
-				{
-					return a + b;
-				}
-				static int Minus(int ab, int bc)
-				{
-					return ab - bc;
-				}
-				static int Multiply(int abc, int abd)
-				{
-					return abc * abd;
-				}
-				static int Split(int bca, int bda)
-				{
-					return bca / bda;
-				}
+				Console.WriteLine($"Результат: {result}");
 			}
 			
 
 
-
-
-
-
 		}
-		static double Sum(double firstOperand, double secondOperand) 
+
+		static double Sum(double a, double b) 
 		{
-			double op1; 
-			double op2;
-			return firstOperand + secondOperand; 
+			double result;
+			result = a + b; 
+			return result; 
+		}
+		static double Subtract(double a, double b)
+		{
+			double result;
+			result = a - b;
+			return result;
+		}
+		static double Multiply(double a, double b)
+		{
+			double result;
+			result = a * b;
+			return result;
 		}
 	}
 }
