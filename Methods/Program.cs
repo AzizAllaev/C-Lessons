@@ -22,6 +22,7 @@
 				Console.WriteLine("Чтобы сложить напишите 1");
 				Console.WriteLine("Чтобы вычесть напишите 2");
 				Console.WriteLine("Чтобы вычесть напишите 3");
+				Console.WriteLine("Напишите Stop чтобы остновить приложение");
 				string Sign = Console.ReadLine();
 
 				double result = 0.0;
@@ -38,6 +39,10 @@
 				{
 					result = Multiply(firstOperand, secondOperand);
 				}
+				else if (Sign == "Stop")
+				{
+					break;
+				} 
 				else
 				{
 					Console.WriteLine("Следуйте инструкции");
