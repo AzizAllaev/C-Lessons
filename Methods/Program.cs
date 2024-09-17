@@ -49,6 +49,7 @@
 				}
 
 				Console.WriteLine($"Результат: {result}");
+
 			}
 			
 
