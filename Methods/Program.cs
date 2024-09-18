@@ -19,10 +19,8 @@
 				double firstOperand = Convert.ToDouble(firstString);
 				double secondOperand = Convert.ToDouble(secondString);
 
-				Console.WriteLine("Чтобы сложить напишите 1");
-				Console.WriteLine("Чтобы вычесть напишите 2");
-				Console.WriteLine("Чтобы вычесть напишите 3");
-				Console.WriteLine("Напишите Stop чтобы остновить приложение");
+				Console.WriteLine("1(сложить), 2(вычесть), 3(умножить)");
+			
 				string Sign = Console.ReadLine();
 
 				double result = 0.0;
